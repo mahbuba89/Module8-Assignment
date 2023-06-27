@@ -13,13 +13,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-
-      theme: ThemeData(
-          elevatedButtonTheme: ElevatedButtonThemeData(
-              style:
-                  ElevatedButton.styleFrom(backgroundColor: Colors.deepPurple)),
-          appBarTheme:
-              AppBarTheme(centerTitle: true, backgroundColor: Colors.green)),
       routes: {
         "/": (context) => MyHomePage(),
       },
