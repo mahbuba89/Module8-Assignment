@@ -1,0 +1,11 @@
+const addtask = 'Add Task';
+const title = 'Title';
+const description = 'Description';
+const deadline = 'Deadline';
+const save = 'Save';
+const deleteTask = 'Delete Task';
+const taskDetails = 'Task Details';
+const taskManagement = 'Task Management';
+const enterYourTitle = 'Enter your title';
+const enterYourDesc = 'Enter description';
+const enterYourDeadline = 'Enter deadline';
